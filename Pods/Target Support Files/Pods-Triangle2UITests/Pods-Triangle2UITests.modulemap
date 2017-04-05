@@ -1,0 +1,6 @@
+framework module Pods_Triangle2UITests {
+  umbrella header "Pods-Triangle2UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
