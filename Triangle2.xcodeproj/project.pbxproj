@@ -16,6 +16,11 @@
 		62647B001E91F10500BD7474 /* Triangle2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62647AFF1E91F10500BD7474 /* Triangle2Tests.swift */; };
 		62647B0B1E91F10500BD7474 /* Triangle2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62647B0A1E91F10500BD7474 /* Triangle2UITests.swift */; };
 		62647B191E91F23B00BD7474 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62647B181E91F23B00BD7474 /* GoogleService-Info.plist */; };
+		62BC7C601E9C4DCA00F80C32 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC7C5F1E9C4DCA00F80C32 /* FancyView.swift */; };
+		62BC7C631E9D6CAA00F80C32 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC7C621E9D6CAA00F80C32 /* Constants.swift */; };
+		62BC7C651E9D8E6200F80C32 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC7C641E9D8E6200F80C32 /* RoundBtn.swift */; };
+		62BC7C671E9D927800F80C32 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC7C661E9D927800F80C32 /* FancyField.swift */; };
+		62BC7C691E9D94DE00F80C32 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC7C681E9D94DE00F80C32 /* FancyBtn.swift */; };
 		9949201EEC00D4C7EC5D88EF /* Pods_Triangle2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E78B26D737D2A53FDD1F92C /* Pods_Triangle2Tests.framework */; };
 		DC8D0AB2B17F5482E880A86D /* Pods_Triangle2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007C75BB1476370CE6AD930D /* Pods_Triangle2UITests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +61,11 @@
 		62647B0A1E91F10500BD7474 /* Triangle2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle2UITests.swift; sourceTree = "<group>"; };
 		62647B0C1E91F10500BD7474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62647B181E91F23B00BD7474 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		62BC7C5F1E9C4DCA00F80C32 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		62BC7C621E9D6CAA00F80C32 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		62BC7C641E9D8E6200F80C32 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		62BC7C661E9D927800F80C32 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		62BC7C681E9D94DE00F80C32 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		6A9685E0592447945C1DC272 /* Pods_Triangle2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Triangle2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA436B5C7003093E046075B /* Pods-Triangle2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triangle2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Triangle2UITests/Pods-Triangle2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E78B26D737D2A53FDD1F92C /* Pods_Triangle2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Triangle2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +136,7 @@
 		62647AE91E91F10500BD7474 /* Triangle2 */ = {
 			isa = PBXGroup;
 			children = (
+				62BC7C611E9D6C7E00F80C32 /* Util */,
 				62647B1C1E9546D300BD7474 /* Controller */,
 				62647B1B1E9546CC00BD7474 /* View */,
 				62647B1A1E9546C600BD7474 /* Model */,
@@ -167,7 +178,10 @@
 		62647B1B1E9546CC00BD7474 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				62647AEC1E91F10500BD7474 /* SignInVC.swift */,
+				62BC7C5F1E9C4DCA00F80C32 /* FancyView.swift */,
+				62BC7C641E9D8E6200F80C32 /* RoundBtn.swift */,
+				62BC7C661E9D927800F80C32 /* FancyField.swift */,
+				62BC7C681E9D94DE00F80C32 /* FancyBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -175,8 +189,17 @@
 		62647B1C1E9546D300BD7474 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				62647AEC1E91F10500BD7474 /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		62BC7C611E9D6C7E00F80C32 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				62BC7C621E9D6CAA00F80C32 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		9170A5CFA3452D8ACA012FA3 /* Pods */ = {
@@ -477,8 +500,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62BC7C671E9D927800F80C32 /* FancyField.swift in Sources */,
 				62647AED1E91F10500BD7474 /* SignInVC.swift in Sources */,
+				62BC7C651E9D8E6200F80C32 /* RoundBtn.swift in Sources */,
 				62647AEB1E91F10500BD7474 /* AppDelegate.swift in Sources */,
+				62BC7C601E9C4DCA00F80C32 /* FancyView.swift in Sources */,
+				62BC7C631E9D6CAA00F80C32 /* Constants.swift in Sources */,
+				62BC7C691E9D94DE00F80C32 /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
