@@ -44,14 +44,6 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pvt-dO-Uni" customClass="RoundBtn" customModule="Triangle2" customModuleProvider="target">
-                                <rect key="frame" x="112" y="220" width="150" height="150"/>
-                                <color key="backgroundColor" red="0.2209065705537796" green="0.29708331823348999" blue="0.49420890212059021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="MKm-Iz-cAO"/>
-                                </constraints>
-                                <state key="normal" title="Button" image="f"/>
-                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z0C-53-y5f" customClass="FancyView" customModule="Triangle2" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -80,6 +72,17 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pvt-dO-Uni" customClass="RoundBtn" customModule="Triangle2" customModuleProvider="target">
+                                <rect key="frame" x="112" y="220" width="150" height="150"/>
+                                <color key="backgroundColor" red="0.2209065705537796" green="0.29708331823348999" blue="0.49420890212059021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="MKm-Iz-cAO"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="f"/>
+                                <connections>
+                                    <action selector="facebookBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kgw-kQ-BJ3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>

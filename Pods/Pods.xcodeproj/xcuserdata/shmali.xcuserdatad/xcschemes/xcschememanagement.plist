@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKCoreKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKLoginKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GTMSessionFetcher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,17 +52,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1BD66F58A15AECA8857429C81AA8BB9A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>3141425A654D5BDE6F98B173D85EC26A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>44CAD6CE523055ED339E87154473A254</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8FE2C580915BF66ADB3E7125840BE913</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>914C6B265DAE4ECC42ECE57FC63E5BD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BC5000D645EEAF961C85907CDC796FE1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BEF7E6E85DB5CDE5D7A18F4F2EB8494B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
