@@ -142,12 +142,6 @@
 				62647B1C1E9546D300BD7474 /* Controller */,
 				62647B1B1E9546CC00BD7474 /* View */,
 				62647B1A1E9546C600BD7474 /* Model */,
-				62647AEA1E91F10500BD7474 /* AppDelegate.swift */,
-				62647AEE1E91F10500BD7474 /* Main.storyboard */,
-				62647B181E91F23B00BD7474 /* GoogleService-Info.plist */,
-				62647AF11E91F10500BD7474 /* Assets.xcassets */,
-				62647AF31E91F10500BD7474 /* LaunchScreen.storyboard */,
-				62647AF61E91F10500BD7474 /* Info.plist */,
 			);
 			path = Triangle2;
 			sourceTree = "<group>";
@@ -181,6 +175,12 @@
 			isa = PBXGroup;
 			children = (
 				62BC7C5F1E9C4DCA00F80C32 /* FancyView.swift */,
+				62647AEA1E91F10500BD7474 /* AppDelegate.swift */,
+				62647AEE1E91F10500BD7474 /* Main.storyboard */,
+				62647B181E91F23B00BD7474 /* GoogleService-Info.plist */,
+				62647AF11E91F10500BD7474 /* Assets.xcassets */,
+				62647AF31E91F10500BD7474 /* LaunchScreen.storyboard */,
+				62647AF61E91F10500BD7474 /* Info.plist */,
 				62BC7C641E9D8E6200F80C32 /* RoundBtn.swift */,
 				62BC7C661E9D927800F80C32 /* FancyField.swift */,
 				62BC7C681E9D94DE00F80C32 /* FancyBtn.swift */,
