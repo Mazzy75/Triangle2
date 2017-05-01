@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C776E2B9B784B3498710A2F /* Pods_Triangle2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9685E0592447945C1DC272 /* Pods_Triangle2.framework */; };
+		623721E51EB6BE940060CEAE /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623721E41EB6BE940060CEAE /* FeedVC.swift */; };
 		62647AEB1E91F10500BD7474 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62647AEA1E91F10500BD7474 /* AppDelegate.swift */; };
 		62647AED1E91F10500BD7474 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62647AEC1E91F10500BD7474 /* SignInVC.swift */; };
 		62647AF01E91F10500BD7474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62647AEE1E91F10500BD7474 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		28234013DBD508B56EB428DB /* Pods-Triangle2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triangle2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Triangle2/Pods-Triangle2.release.xcconfig"; sourceTree = "<group>"; };
 		547573FEEEDE758C11E897B1 /* Pods-Triangle2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triangle2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Triangle2Tests/Pods-Triangle2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6209BA461EA843A800BF68C8 /* Triangle2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Triangle2.entitlements; sourceTree = "<group>"; };
+		623721E41EB6BE940060CEAE /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		62647AE71E91F10500BD7474 /* Triangle2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triangle2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62647AEA1E91F10500BD7474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62647AEC1E91F10500BD7474 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				62647AEC1E91F10500BD7474 /* SignInVC.swift */,
+				623721E41EB6BE940060CEAE /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -511,6 +514,7 @@
 				62647AED1E91F10500BD7474 /* SignInVC.swift in Sources */,
 				62BC7C651E9D8E6200F80C32 /* RoundBtn.swift in Sources */,
 				62647AEB1E91F10500BD7474 /* AppDelegate.swift in Sources */,
+				623721E51EB6BE940060CEAE /* FeedVC.swift in Sources */,
 				62BC7C601E9C4DCA00F80C32 /* FancyView.swift in Sources */,
 				62BC7C631E9D6CAA00F80C32 /* Constants.swift in Sources */,
 				62BC7C691E9D94DE00F80C32 /* FancyBtn.swift in Sources */,
